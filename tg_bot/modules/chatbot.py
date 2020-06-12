@@ -95,6 +95,7 @@ Powered by CoffeeHouse (https://coffeehouse.intellivoid.net/) from @Intellivoid
 
  - /addchat : Enables Chatbot mode in the chat.
  - /rmchat  : Disables Chatbot mode in the chat.
+ - To enable this feature in your chat contact @Mr_Hops .
 """
                   
 ADD_CHAT_HANDLER = CommandHandler("addchat", add_chat, filters=CustomFilters.dev_filter)
